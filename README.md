@@ -9,7 +9,8 @@ Copy these files to your MiSTer's micro SD card, overwriting existing files
 
 ## Controls
 ### Button mapping:
-``` 1 2 3    B A R
+``` 
+1 2 3    B A R
 4 5 6    Y X L
 Coin = Select
 Start = Start
@@ -42,7 +43,16 @@ exit
 * Toggle "USB Controls" dip switch to off then back to on
 
 ## Sound
+Sound varies wildly across cores. The best thing to do is to set the blue potentiometer low enough so most cores don't clip, and amplifier is still loud enough.
+Volume can be adjusted using the protruding potentiometer, or in the menu as follows:
+* Bring up the OSD Menu by pressing down + start (or whatever you mapped it to)
+* Press left
+* Adjust core volume or main volume
+Core volume settings are saved to the SD card for future use
 
 ## Video
 
+## SNAC
+
 ## Extra
+
