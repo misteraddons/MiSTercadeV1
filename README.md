@@ -9,11 +9,11 @@ Copy these files to your MiSTer's micro SD card, overwriting existing files
 
 ## Controls
 ### Button mapping:
-* 1 2 3    B A R
-* 4 5 6    Y X L
-* Coin = Select
-* Start = Start
-* Menu/OSD = Down + Start
+> 1 2 3    B A R
+> 4 5 6    Y X L
+> Coin = Select
+> Start = Start
+> Menu/OSD = Down + Start
 
 Feel free to remap as needed
 
@@ -29,11 +29,11 @@ Should the controller firmware need updating do as follows:
 * username: root
 * password: 1
 * Enter the following commands:
->cd /media/fat/
->lsusb
+> cd /media/fat/
+> lsusb
 * (Check for 1209:babe in the device list - this is the bootloader for the STM32 microcontroller)
->hid-flash_MiSTer STM32_2P_Encoder_50ms_debounce.bin
->exit
+> hid-flash_MiSTer STM32_2P_Encoder_50ms_debounce.bin
+> exit
 * Press F12 to return to main menu
 * Turn STM32 DFU dip switch off
 * Toggle "USB Controls" dip switch to off then back to on
