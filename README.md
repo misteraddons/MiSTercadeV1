@@ -4,7 +4,7 @@
 ## Installation
 This repository is reserved for MiSTercade testers
 Choose a MiSTer.ini (15 kHz or 31 kHz) and rename it to MiSTer.ini
-- 31 kHz is untested
+* (31 kHz is untested)
 Copy these files to your MiSTer's micro SD card, overwriting existing files
 
 ## Controls
@@ -51,8 +51,7 @@ Volume can be adjusted using the protruding potentiometer, or in the menu as fol
 Core volume settings are saved to the SD card for future use
 
 ## Video
+RGBS Video levels are ~3V
 
 ## SNAC
-
-## Extra
-
+Built-in SNAC is intended for light guns, but works with controllers as well. The usual caveats with SNAC apply
