@@ -34,8 +34,10 @@ Should the controller firmware need updating do as follows:
 ```
 cd /media/fat/
 lsusb
-(Check for 1209:babe in the device list - this is the bootloader for the STM32 microcontroller)
+(Check for 1209:babe in the device list - this is the STM32 microcontroller bootloader)
 hid-flash_MiSTer STM32_2P_Encoder_50ms_debounce.bin
+lsusb
+(Check for 8888:8888 in the device list - this is the STM32 microcontroller firmware)
 exit
 ```
 * Press F12 to return to main menu
