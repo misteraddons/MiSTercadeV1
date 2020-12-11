@@ -63,10 +63,9 @@ Built-in SNAC is intended for light guns, but works with controllers as well. Th
 | --- | --- | --- |
 | Power Jumper | Protected (uses built-in protection circuit) | Direct (straight from the arcade PSU to the DE10-nano) |
 | Video | To JAMMA / 40 Pin Header | To VGA video |
-| Audio | Onboard Volume Adj. | External Volume Adj. |
+| Audio | Onboard Volume Adjustment | External Volume Adjustment |
 | Audio DAC | Off | On |
 | USB CONTROLS | Off | On
-* DIPS:
 | MCU BOOTLOADER | Normal mode | Bootloader Mode |
 | CC1=CC2 | Coin Counter 1 != Coin Counter 2 | Coin Counter 1 = Coin Counter 2 |
 | COIN1=COIN2 | Coin signals separate | Coin signals merged (candy cabinets) |
