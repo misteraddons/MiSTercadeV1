@@ -57,3 +57,21 @@ RGBS Video levels are ~3V
 
 ## SNAC
 Built-in SNAC is intended for light guns, but works with controllers as well. The usual caveats with SNAC apply
+
+## Built-in Switches
+| Switch Name | Left Position | Right Position |
+| --- | --- | --- |
+| Power Jumper | Protected (uses built-in protection circuit) | Direct (straight from the arcade PSU to the DE10-nano) |
+| Video | To JAMMA / 40 Pin Header | To VGA video |
+| Audio | Onboard Volume Adj. | External Volume Adj. |
+| Audio DAC | Off | On |
+| USB CONTROLS | Off | On
+* DIPS:
+| MCU BOOTLOADER | Normal mode | Bootloader Mode |
+| CC1=CC2 | Coin Counter 1 != Coin Counter 2 | Coin Counter 1 = Coin Counter 2 |
+| COIN1=COIN2 | Coin signals separate | Coin signals merged (candy cabinets) |
+| P1B5 | JAMMA 26 Disconnected | JAMMA 26 Connected |
+| P1B6 | JAMMA 27 Disconnected | JAMMA 27 Connected |
+| P2B5 | JAMMA d Disconnected | JAMMA d Connected |
+| P2B6 | JAMMA e Disconnected | JAMMA e Connected |
+
