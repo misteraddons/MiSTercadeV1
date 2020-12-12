@@ -2,10 +2,15 @@
  MiSTer FPGA JAMMA adapter
 
 ## Installation
-This repository is reserved for MiSTercade testers
-Choose a MiSTer.ini (15 kHz or 31 kHz) and rename it to MiSTer.ini
-* (31 kHz is untested)
-Copy these files to your MiSTer's micro SD card, overwriting existing files
+* Choose a MiSTer.ini (15 kHz or 31 kHz) and rename it to MiSTer.ini
+** (31 kHz is untested)
+* Copy these files to your MiSTer's micro SD card, overwriting existing files
+* Toggle SW0 on DE10-nano (one of the 4 large switches near the GPIO header) towards the center of the board. SW1-4 should remain off (towards edge of board)
+* Plug MiSTercade PCB into top of DE10-nano, mating all pin headers
+* Install USB bridge to both the DE10-nano and MiSTercade PCB
+* Set pin jumper next to JAMMA edge to either Direct or Protect (see table below)
+* CHECK 5V LINE ON ARCADE POWER SUPPLY TO ENSURE IT'S BETWEEN 5.1V DC AND 5.3V DC. 
+** If Bluetooth/Wifi dongles are used, set voltage closer to 5.3V so USB ports get a full 5V.
 
 ## Controls
 ### Button mapping:
