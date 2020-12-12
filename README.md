@@ -56,7 +56,7 @@ Core volume settings are saved to the SD card for future use
 RGBS Video levels are ~3V
 
 ## SNAC
-Built-in SNAC is intended for light guns, but works with controllers as well. The usual caveats with SNAC apply
+Built-in SNAC is intended for light guns, but works with controllers as well. The usual caveats with SNAC apply - can't control OSD menu, 1 player, no native arcade controls, etc.
 
 ## Built-in Switches
 | Switch Name | Left Position | Right Position |
