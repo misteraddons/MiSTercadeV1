@@ -3,6 +3,8 @@
 
 ## Installation
 * Choose a MiSTer.ini (15 kHz or 31 kHz) and rename it to MiSTer.ini
+* Download the files from Github
+* Unzip one of the button mappings from /config/inputs folder - Note only difference in menu button combination (down + start vs B1 + B6)
 * Copy input mapping files to Micro SD card
 * Copy these files to your MiSTer's micro SD card, overwriting existing files
 * Toggle SW0 on DE10-nano (one of the 4 large switches near the GPIO header) towards the center of the board. SW1-3 should remain off (towards edge of board)
@@ -17,8 +19,10 @@
 4 5 6    Y L -
 Coin = R
 Start = Start
-Menu/OSD = Down + Start
+Menu/OSD = Down + Start OR B1 + B6 (depending on which zip file you extract)
 ```
+* NOTE: If you choose B1 + B6 menu button combo, you will not be able to activate autofire on B1 or B6
+* NOTE: If you choose Down + Start menu button combo, you will not be able to use freeplay 
 * 6 button mapping not currently supported by default so 6 button games will have their own per-game input mappings
 * Feel free to remap as needed
 
