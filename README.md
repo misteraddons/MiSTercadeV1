@@ -36,12 +36,18 @@ lsusb
 ```
 * Check for 1209:babe in the device list - this is the STM32 microcontroller bootloader
 ```
-./hid-flash_MiSTer STM32_2P_Encoder.bin
+cd /media/fat
+./hid-flash_MiSTer firmwarename.bin
+```
+* Remove STM32 DFU Jumper
+* Restart MiSTercade
+* Press F9 on main menu of MiSTer
+* username: root
+* password: 1
+```
 lsusb
 ```
 * Check for 8888:8888 in the device list - this is the STM32 microcontroller firmware
-* Remove STM32 DFU Jumper
-* Restart MiSTercade
 
 ## Sound
 Sound varies wildly across cores. The best thing to do is to set the blue potentiometer low enough so most cores don't clip, and amplifier is still loud enough.
