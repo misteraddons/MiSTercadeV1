@@ -27,14 +27,16 @@ Should the controller firmware need updating do as follows:
 * Put hid-flash_MiSTer and firmware files in the root of micro SD card
 * Toggle Install pin jumper on "STM32 DFU" header pins
 * Plug in USB keyboard
-* Press F9 on main menu of MiSTer
+* Power on MiSTer
+* Press F9 on main menu of MiSTer to enter terminal (or ssh)
 * username: root
 * password: 1
-* Enter the following commands to update the firmware
+* Enter the following commands to check for proper hardware ID
 ```
 lsusb
 ```
 * Check for 1209:babe in the device list - this is the STM32 microcontroller bootloader
+* Enter the following commands to update the firmware
 ```
 cd /media/fat
 ./hid-flash_MiSTer firmwarename.bin
@@ -44,6 +46,7 @@ cd /media/fat
 * Press F9 on main menu of MiSTer
 * username: root
 * password: 1
+* Enter the following commands to check for proper hardware ID
 ```
 lsusb
 ```
