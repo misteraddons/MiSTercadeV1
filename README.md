@@ -28,6 +28,7 @@ Menu/OSD = Down + Start OR B1 + B6 (depending on which zip file you extract)
 
 ## Twin Stick Games
 * There are several twin stick games on MiSTer. There are 2 general configuration styles: mapping and OSD setting. The included map files are set for twin stick play, and the cfg files enable twin stick on their corresponding games.
+* Tank sticks aren't easily supported as they require twin sticks with triggers
 
 | Game | Twin Stick Mode |
 | --- | --- |
