@@ -44,11 +44,9 @@ B4    B5    B6       DOWN   -      -
 | Minefield | osd config |
 | Rescue | osd config |
 | Robotron | osd config |
-| Sarge | tank stick (n/a) | 
-| Star Guards | tank stick (n/a) |
-| Ultra Tank | tank stick (n/a) | 
-| Vindicators Pt. II | tank stick (n/a) |
+| Star Guards | input mapping (1p only) |
 | Water Match | input mapping |
+
 
 ### Updating controller firmware:
 Should the controller firmware need updating do as follows:
