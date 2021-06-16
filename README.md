@@ -26,6 +26,24 @@ Menu/OSD = Down + Start OR B1 + B6 (depending on which zip file you extract)
 * 6 button mapping not currently supported by default so 6 button games will have their own per-game input mappings
 * Feel free to remap as needed
 
+## Twin Stick Games
+* There are several twin stick games on MiSTer. There are 2 general configuration styles: mapping and OSD setting. The included map files are set for twin stick play, and the cfg files enable twin stick on their corresponding games.
+
+| Game | Twin Stick Mode |
+| --- | --- |
+| Black Widow | input mapping |
+| Crazy Climber | input mapping |
+| Lost Tomb | osd config |
+| Mars | osd config |
+| Minefield | osd config |
+| Rescue | osd config |
+| Robotron | osd config |
+| Sarge | tank stick (n/a) | 
+| Star Guards | tank stick (n/a) |
+| Ultra Tank | tank stick (n/a) | 
+| Vindicators Pt. II | tank stick (n/a) |
+| Water Match | input mapping |
+
 ### Updating controller firmware:
 Should the controller firmware need updating do as follows:
 * Put hid-flash_MiSTer and firmware files in the root of micro SD card
