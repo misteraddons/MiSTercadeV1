@@ -41,29 +41,29 @@ if [ ! -f /media/fat/Scripts/.mistercade/hid-flash_MiSTer ]; then
     chmod +x /media/fat/Scripts/.mistercade/hid-flash_MiSTer
 fi
 
-if [ ! -f /media/fat/Scripts/.mistercade/MiSTercade_FW.bin ]; then
+if [ ! -f /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin ]; then
     echo 'Latest MiSTercade firmware not found, downloading now...'
     cd /media/fat/Scripts/.mistercade/
-    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW.bin
+    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
     NEW_FIRMWARE=1
 #fi
-#if [ -f /media/fat/Scripts/.mistercade/MiSTercade_FW.bin ]; then
+#if [ -f /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin ]; then
 else
     cd /tmp/mistercade/
     #rm *.bin
     #ls
-    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW.bin
-    #CURRENT_FIRMWARE=$FIRMWARE_DIR/MiSTercade_FW.bin
+    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
+    #CURRENT_FIRMWARE=$FIRMWARE_DIR/MiSTercade_FW-latest.bin
     #echo 'Current firmware checksum'
     #echo $CURRENT_CHECKSUM
-    #NEW_FIRMWARE=$TEMP_DIR/MiSTercade_FW.bin
+    #NEW_FIRMWARE=$TEMP_DIR/MiSTercade_FW-latest.bin
     #echo 'New firmware checksum'
     #echo $NEW_CHECKSUM
     #if [ $CURRENT_CHECKSUM != $NEW_CHECKSUM ]; then
-    if ! cmp /media/fat/Scripts/.mistercade/MiSTercade_FW.bin /tmp/mistercade/MiSTercade_FW.bin; then
+    if ! cmp /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin /tmp/mistercade/MiSTercade_FW-latest.bin; then
         echo 'New MiSTercade firmware found, downloading now...'
-        rm /media/fat/Scripts/.mistercade/MiSTercade_FW.bin
-        cp /tmp/mistercade/MiSTercade_FW.bin /media/fat/Scripts/.mistercade/MiSTercade_FW.bin
+        rm /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin
+        cp /tmp/mistercade/MiSTercade_FW-latest.bin /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin
         NEW_FIRMWARE=1
     else
         echo 'No new MiSTercade firmware found.'
@@ -83,7 +83,7 @@ if (lsusb | grep -q "1209:babe Generic brunofreitas.com STM32 HID Bootloader") #
 then
     echo 'Device in DFU mode, updating firmware...'
     cd /media/fat/Scripts/.mistercade/
-    ./hid-flash_MiSTer MiSTercade_FW.bin | grep -q 'Ok!' && echo 'Update complete! Please remove the "DFU Mode" pin jumper and restart'
+    ./hid-flash_MiSTer MiSTercade_FW-latest.bin | grep -q 'Ok!' && echo 'Update complete! Please remove the "DFU Mode" pin jumper and restart'
     exit 0
 else
     echo 'ERROR: MiSTercade is not in firmware upgrade mode. Please apply the pin jumper to the "STM32 DFU" pins and restart MiStercade.'
