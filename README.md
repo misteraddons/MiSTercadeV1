@@ -15,8 +15,8 @@
 ## Controls
 ### Button mapping:
 ``` 
-1 2 3    A B X
-4 5 6    Y L -
+1 2 3    A B R
+4 5 6    X Y L
 Coin = R
 Start = Start
 Menu/OSD = Down + Start OR B1 + B6 (depending on which zip file you extract)
