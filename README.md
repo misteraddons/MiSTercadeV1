@@ -39,11 +39,12 @@ B4    B5    B6       DOWN   -      -
 | --- | --- |
 | Black Widow | input mapping |
 | Crazy Climber | input mapping |
-| Lost Tomb | osd config |
+| Crazy Climber 2 | input mapping |
+| Lost Tomb | [OSD option] Fire Mode: Second Joystick |
 | Mars | osd config |
 | Minefield | osd config |
 | Rescue | osd config |
-| Robotron | osd config |
+| Robotron 2084 | [OSD option] Fire Mode: Second Joystick |
 | Star Guards | input mapping (1p only) |
 | Water Match | input mapping |
 
