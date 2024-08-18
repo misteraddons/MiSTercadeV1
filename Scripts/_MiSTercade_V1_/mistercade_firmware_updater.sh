@@ -36,7 +36,7 @@ fi
 if [ ! -f /media/fat/Scripts/.mistercade/hid-flash_MiSTer ]; then
     echo 'MiSTercade firmware flasher not found, downloading now...'
     cd /media/fat/Scripts/.mistercade/
-    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/hid-flash_MiSTer
+    wget -q https://github.com/misteraddons/MiSTercade/raw/main/Scripts/_MiSTercade_V1_/MiSTercade%20Firmware/hid-flash_MiSTer
     echo 'Updating binary permissions...'
     chmod +x /media/fat/Scripts/.mistercade/hid-flash_MiSTer
 fi
@@ -44,7 +44,7 @@ fi
 if [ ! -f /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin ]; then
     echo 'Latest MiSTercade firmware not found, downloading now...'
     cd /media/fat/Scripts/.mistercade/
-    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
+    wget -q https://github.com/misteraddons/MiSTercade/raw/main/Scripts/_MiSTercade_V1_/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
     NEW_FIRMWARE=1
 #fi
 #if [ -f /media/fat/Scripts/.mistercade/MiSTercade_FW-latest.bin ]; then
@@ -52,7 +52,7 @@ else
     cd /tmp/mistercade/
     #rm *.bin
     #ls
-    wget -q https://github.com/misteraddons/MiSTercade/raw/main/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
+    wget -q https://github.com/misteraddons/MiSTercade/raw/main/Scripts/_MiSTercade_V1_/MiSTercade%20Firmware/MiSTercade_FW-latest.bin
     #CURRENT_FIRMWARE=$FIRMWARE_DIR/MiSTercade_FW-latest.bin
     #echo 'Current firmware checksum'
     #echo $CURRENT_CHECKSUM
