@@ -91,8 +91,6 @@ Volume can be adjusted using the protruding potentiometer, or in the menu as fol
 * Adjust core volume or main volume
 * (Core volume settings are saved to the SD card for future use)
 
-* Alternatively, use the Audio Normalization Scripts https://github.com/misteraddons/normalize_audio_scripts
-
 ## Video
 RGB Video levels are ~3V
 
