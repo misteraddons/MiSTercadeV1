@@ -37,17 +37,17 @@ B4    B5    B6       DOWN   -      -
 
 | Game | Twin Stick Mode |
 | --- | --- |
-| Black Widow | input mapping (1p only) |
-| Crazy Climber | input mapping (1p only) |
-| Crazy Climber 2 | input mapping (1p only) |
-| Inferno | input mapping (1p only) + [OSD option] "Aim+fire: On" |
+| Black Widow | input mapping (1P only) |
+| Crazy Climber | input mapping (1P only) |
+| Crazy Climber 2 | input mapping (1P only) |
+| Inferno | input mapping (1P only) + [OSD option] "Aim+fire: On" |
 | Lost Tomb | [OSD option] Fire Mode: Second Joystick |
 | Mars | [OSD option] Fire Mode: Second Joystick |
 | Minefield | [OSD option] Fire Mode: Second Joystick |
 | Rescue | [OSD option] Fire Mode: Second Joystick |
 | Robotron 2084 | [OSD option] Fire Mode: Second Joystick |
-| Star Guards | input mapping (1p only) |
-| Water Match | input mapping (1p only) |
+| Star Guards | input mapping (1P only) |
+| Water Match | input mapping (1P only) |
 
 
 ### Updating controller firmware:
