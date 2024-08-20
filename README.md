@@ -97,6 +97,9 @@ RGB Video levels are ~3V
 ## SNAC
 Built-in SNAC is intended for light guns, but works with controllers as well. The usual caveats with SNAC apply - can't control OSD menu, 1 player, no native arcade controls, etc.
 
+## MiSTercade Versus
+MiSTercade VS uses the MiSTercade V1 controller firmware. Whatever mapping you set for your main MiSTercade will be inherited by the Versus cabinet.
+
 ## Built-in Switches
 | DIP Switch | Left Position | Right Position |
 | --- | --- | --- |
