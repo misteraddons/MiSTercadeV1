@@ -7,8 +7,6 @@
 ```
 [misteraddons/mistercade_mappings]
 db_url = https://raw.githubusercontent.com/misteraddons/mistercade_mappings/db/db.json.zip
-allow_delete = 0
-verbose = true
 ```
 * Toggle SW0 on DE10-nano (one of the 4 large switches near the GPIO header) towards the center of the board. SW1-3 should remain off (towards edge of board)
 * Plug MiSTercade PCB into top of DE10-nano, mating all pin headers
