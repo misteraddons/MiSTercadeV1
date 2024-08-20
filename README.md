@@ -4,7 +4,7 @@
 ## Installation
 * Download a [MiSTer.ini file](https://github.com/misteraddons/mister_ini/tree/main/MiSTercade%20V1) that matches your cabinet's resolution and orientation, and place it in the main folder of your MiSTer SD card.
 * Modify or create the "downloader.ini" file on your MiSTer SD card, by including this section of code. This will ensure the correct mappings for all arcade games are downloaded and updated automatically!
-```
+```ini
 [misteraddons/mistercade_mappings]
 db_url = https://raw.githubusercontent.com/misteraddons/mistercade_mappings/db/db.json.zip
 ```
